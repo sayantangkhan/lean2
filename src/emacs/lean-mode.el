@@ -399,10 +399,10 @@ Invokes `lean-mode-hook'.
 (modify-coding-system-alist 'file "\\.hlean\\'" 'utf-8)
 
 ;; Flycheck init
-(when lean-flycheck-use
-  (require 'flycheck)
-  (eval-after-load 'flycheck
-    '(lean-flycheck-init)))
+;(when lean-flycheck-use
+  ;(require 'flycheck)
+  ;(eval-after-load 'flycheck
+    ;'(lean-flycheck-init)))
 
 ;; Lean Info Mode (for "*lean-info*" buffer)
 ;; Automode List

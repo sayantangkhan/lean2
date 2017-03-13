@@ -1,10 +1,9 @@
 
 import .equivalence
 
-open eq functor nat_trans prod prod.ops
+open eq functor nat_trans
 
 namespace category
-
 
   variables {C D E : Precategory} (F : C ⇒ D) (G : D ⇒ C) (H : D ≅c E)
 /-
